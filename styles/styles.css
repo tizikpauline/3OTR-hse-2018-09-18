@@ -49,21 +49,51 @@ table {
 
 h1 {
   font-family: "PT Sans Caption", sans-serif;
-	font-size: 40px;
-	font-weight: 900;
-	margin-bottom: 100px;
 }
-p:first-of-type {
-	color: gray;
-	opacity: 0,5;
-	line-height: 40px;
-	letter-spacing: 5px;
-}
-a {
-	color: black;
+h2 {
+	font-family: "PT Sans Caption", sans-serif;
 }
 p {
   font-family: "PT Sans", sans-serif;
+}
+}
+a {
+	color: gray;
+}
+h1{
+	font-size: 40px;
+	font-weight: 900;
+	margin: -27px auto 20px 0px;
+}
+h1+p{
+
+}
+h2{
+  font-size: 32px;
+	font-weight: bold;
+	color: black;
+	opacity: 0.8;
+	margin: 67px auto 0 auto;
+}
+h3{
+	font-size: 25px;
+	font-weight: bold;
+
+}
+h3{
+	color: black;
+	opacity: 0.8;
+}
+p{
+	font-size: 23px
+}
+p:first-of-type {
+	font-family: "PT Sans", sans-serif;
+  color: gray;
+  opacity: 0.8;
+  line-height: 28px;
+	letter-spacing: 1px;
+	margin: -15px auto 0 auto;
 }
 body {
   background-image: url(dc-online-media-mockup.jpg);
