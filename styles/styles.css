@@ -125,10 +125,12 @@ color: gray;
 margin: 10px 10px auto 25px;
 list-style: disc;
 }
-body {
-width: 700px;
-margin-top: 80px;
-margin-right: auto;
-margin-bottom: 0;
-margin-left: auto;
+img {
+display: block;
+width: 1020px;
+margin: 90px auto 90px;
+}
+h1, h2, h3, p, ul {
+	width: 700px;
+	margin: 0 auto;
 }
